@@ -1,0 +1,25 @@
+{
+    "name": "SharpSecDump",
+    "version": "v0.0.0",
+    "command_name": "sharpsecdump",
+    "original_author": "G0ldenGunSec",
+    "repo_url": "https://github.com/sliverarmory/SharpSecDump",
+    "help": "C# port of impacket's secretsdump.py functionality",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "SharpSecDump.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "SharpSecDump.exe"
+      }
+    ]
+  }
